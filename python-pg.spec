@@ -9,6 +9,7 @@ Release: 	%{release}
 Source0: 	ftp://ftp.druid.net/pub/distrib/%{sourcename}-%{version}.tar.bz2
 License:	GPL
 Group: 		Development/Python
+BuildRoot: 	%{_tmppath}/%{name}-buildroot
 Url: 		http://www.druid.net/pygresql/
 BuildRequires:	postgresql-devel python-devel
 Provides:	python-postgresql = %{version}-%{release}
