@@ -40,9 +40,9 @@ python setup.py install --root=$RPM_BUILD_ROOT --record=INSTALLED_FILES
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files -f INSTALLED_FILES
+%files
 %defattr(644,root,root,755)
 %doc Announce ChangeLog 
 %defattr(755,root,root)
 %doc tutorial/
-
+%py_platsitedir/*
