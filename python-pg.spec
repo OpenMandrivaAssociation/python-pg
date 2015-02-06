@@ -1,6 +1,6 @@
 %define sourcename PyGreSQL
 %define version 3.7
-%define release %mkrel 7
+%define release 8
 
 Summary: 	Postgresql support for Python
 Name: 		python-pg
